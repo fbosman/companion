@@ -77,7 +77,7 @@ jobs:
 
           yarn update
 
-          yarn zx tools/build/complete.mjs
+          yarn zx tools/build/complete.mjs linux-arm64
 
           # manually tar it, to preserve the symlinks
           cd electron-output
